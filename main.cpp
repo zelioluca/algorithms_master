@@ -2,6 +2,8 @@
 #include <cstdlib>
 #include <ctime>
 #include "Search.h"
+#include "Recursive.h"
+
 using namespace std;
 
 int main(int argc, char**argv)
@@ -30,6 +32,9 @@ int main(int argc, char**argv)
     cout << "Rand array => the number  " << numberToSearch << " is at position " << seqSearchBinary << endl;
     int seqSearchSeq = SequentialSearch(SequentialInput, numberToSearch, 0, N-1);
     cout << "Seq array => the number  " << numberToSearch << " is at position " << seqSearchSeq << endl;
+
+    //factorial
+    cout << "The factorial of 12 is " << Factorial(12) << endl;
 
     return 0;
 }

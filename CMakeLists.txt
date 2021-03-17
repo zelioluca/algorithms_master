@@ -3,4 +3,4 @@ project(Algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithms main.cpp Search.h)
+add_executable(Algorithms main.cpp Search.h Recursive.h)

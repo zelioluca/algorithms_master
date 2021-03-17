@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/home/luca/Documents/Algorithms/Recursive.h
+
 /home/luca/Documents/Algorithms/Search.h
 
 /home/luca/Documents/Algorithms/main.cpp
@@ -17,4 +19,6 @@ ctime
 -
 Search.h
 /home/luca/Documents/Algorithms/Search.h
+Recursive.h
+/home/luca/Documents/Algorithms/Recursive.h
 
