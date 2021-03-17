@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luca/Documents/Algorithms/Search.h
+
+/home/luca/Documents/Algorithms/main.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+Search.h
+/home/luca/Documents/Algorithms/Search.h
+
