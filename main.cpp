@@ -3,6 +3,7 @@
 #include <ctime>
 #include "Search.h"
 #include "Recursive.h"
+#include "Distance.h"
 
 using namespace std;
 
@@ -35,6 +36,16 @@ int main(int argc, char**argv)
 
     //factorial
     cout << "The factorial of 12 is " << Factorial(12) << endl;
+
+    //point test
+    point a;
+    point b;
+    a.x = 20;
+    a.y = 10;
+    b.x = 50;
+    b.y = 70;
+
+    cout << "The distance between a and b is " << GetDistance(a, b) << endl;
 
     return 0;
 }

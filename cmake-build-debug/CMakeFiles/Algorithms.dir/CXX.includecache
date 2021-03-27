@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/luca/Documents/Algorithms/Distance.h
+iostream
+-
+cmath
+-
+
 /home/luca/Documents/Algorithms/Recursive.h
 
 /home/luca/Documents/Algorithms/Search.h
@@ -21,4 +27,6 @@ Search.h
 /home/luca/Documents/Algorithms/Search.h
 Recursive.h
 /home/luca/Documents/Algorithms/Recursive.h
+Distance.h
+/home/luca/Documents/Algorithms/Distance.h
 

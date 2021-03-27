@@ -48,6 +48,4 @@ void StringGenerator(int n, int k, char*input)
     }
 }
 
-
-
 #endif //ALGORITHMS_RECURSIVE_H
