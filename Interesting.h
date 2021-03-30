@@ -34,7 +34,38 @@ void Eratosthenes()
     }
     std::cout << std::endl;
 
+}
 
+int FlipHead()
+{
+    return rand() < RAND_MAX / 2;
+}
+
+void FlipTheCoin(const char* first, const char* second)
+{
+    int i, j, ctn;
+    int N = atoi(first);
+    int M = atoi(second);
+    int *f = new int[N + 1];
+    for(j = 0; j <= N; j++) f[j] = 0;
+
+
+    for(i = 0; i < M; i ++, f[ctn]++)
+    {
+        for (ctn = 0, j = 0; j <= N; j++)
+        {
+            if (FlipHead())
+            {
+                ctn++;
+            }
+        }
+    }
+    for(j = 0; j <= N; j++)
+    {
+        if(f[j] == 0) std::cout << ".";
+        for(i = 0; i <f[j]; i+=10) std::cout << "*";
+        std::cout << std::endl;
+    }
 
 }
 

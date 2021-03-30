@@ -50,6 +50,9 @@ int main(int argc, char**argv)
     cout << "Primes numbers: " << std::endl;
     Eratosthenes();
 
+    cout << "Bernulli trials " << std::endl;
+    FlipTheCoin("34", "2000");
+
     return 0;
 }
 
