@@ -12,6 +12,8 @@ iostream
 cmath
 -
 
+/home/luca/Documents/Algorithms/Interesting.h
+
 /home/luca/Documents/Algorithms/Recursive.h
 
 /home/luca/Documents/Algorithms/Search.h
@@ -29,4 +31,6 @@ Recursive.h
 /home/luca/Documents/Algorithms/Recursive.h
 Distance.h
 /home/luca/Documents/Algorithms/Distance.h
+Interesting.h
+/home/luca/Documents/Algorithms/Interesting.h
 

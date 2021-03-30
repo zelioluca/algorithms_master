@@ -4,6 +4,7 @@
 #include "Search.h"
 #include "Recursive.h"
 #include "Distance.h"
+#include "Interesting.h"
 
 using namespace std;
 
@@ -46,6 +47,8 @@ int main(int argc, char**argv)
     b.y = 70;
 
     cout << "The distance between a and b is " << GetDistance(a, b) << endl;
+    cout << "Primes numbers: " << std::endl;
+    Eratosthenes();
 
     return 0;
 }

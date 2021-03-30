@@ -85,6 +85,9 @@
 		<Unit filename="/home/luca/Documents/Algorithms/Distance.h">
 			<Option target="Algorithms"/>
 		</Unit>
+		<Unit filename="/home/luca/Documents/Algorithms/Interesting.h">
+			<Option target="Algorithms"/>
+		</Unit>
 		<Unit filename="/home/luca/Documents/Algorithms/Recursive.h">
 			<Option target="Algorithms"/>
 		</Unit>
