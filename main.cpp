@@ -5,6 +5,7 @@
 #include "Recursive.h"
 #include "Distance.h"
 #include "Interesting.h"
+#include "LinkedList.h"
 
 using namespace std;
 
@@ -52,6 +53,8 @@ int main(int argc, char**argv)
 
     cout << "Bernulli trials " << std::endl;
     FlipTheCoin("34", "2000");
+
+    LinkedList("9", "5");
 
     return 0;
 }
